@@ -1,0 +1,8 @@
+<!-- Property binding: passes data down to the child component's @Input()s -->
+<app-header [title]="title" [totalStudents]="students.length"></app-header>
+
+<main class="layout">
+  <app-student-list [students]="students"></app-student-list>
+</main>
+
+<app-footer></app-footer>
