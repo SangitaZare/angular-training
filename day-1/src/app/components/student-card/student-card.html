@@ -1,0 +1,8 @@
+<section class="student-card" appHighlight highlightColor="#e0f2fe">
+  <h2>Last Submitted Student</h2>
+
+  <!-- Interpolation with the safe-navigation operator + a fallback, no *ngIf needed -->
+  <p><strong>Name:</strong> {{ student?.name || 'No student submitted yet' }}</p>
+  <p><strong>Email:</strong> {{ student?.email || '-' }}</p>
+  <p><strong>Course:</strong> {{ student?.course || '-' }}</p>
+</section>
