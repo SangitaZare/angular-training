@@ -1,0 +1,25 @@
+<section class="post-list">
+  <div class="toolbar">
+    <h2>Posts</h2>
+    <button type="button" (click)="loadPosts()" [disabled]="loading()">
+      {{ loading() ? 'Loading...' : 'Refresh' }}
+    </button>
+  </div>
+
+  <!-- Loading state -->
+  <p class="status" *ngIf="loading()">Loading posts&hellip;</p>
+
+  <!-- Error state, with a retry action -->
+  <div class="error" *ngIf="errorMessage() && !loading()">
+    <p>Something went wrong: {{ errorMessage() }}</p>
+    <button type="button" (click)="loadPosts()">Try again</button>
+  </div>
+
+  <!-- Success state -->
+  <ul *ngIf="!loading() && !errorMessage()">
+    <li *ngFor="let post of posts().slice(0, 10); trackBy: trackById" class="post-row">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.body }}</p>
+    </li>
+  </ul>
+</section>
