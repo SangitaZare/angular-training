@@ -1,0 +1,17 @@
+.not-found {
+  max-width: 480px;
+  margin: 1.5rem auto;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.not-found p {
+  color: #4b5563;
+}
+
+.not-found a {
+  color: #4f46e5;
+}
