@@ -1,0 +1,91 @@
+<section class="form-card">
+  <h2>Register (Reactive Form)</h2>
+
+  @if (registeredUsername()) {
+    <p class="success">Welcome, {{ registeredUsername() }}! Your account was created.</p>
+  }
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+    <div class="field">
+      <label for="username">Username</label>
+      <input id="username" type="text" formControlName="username" />
+      @if (username.invalid && (username.touched || submitted())) {
+        <ul class="errors">
+          @if (username.errors?.['required']) {
+            <li>Username is required.</li>
+          }
+          @if (username.errors?.['minlength']) {
+            <li>Username must be at least 3 characters.</li>
+          }
+        </ul>
+      }
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input id="email" type="text" formControlName="email" />
+      @if (email.invalid && (email.touched || submitted())) {
+        <ul class="errors">
+          @if (email.errors?.['required']) {
+            <li>Email is required.</li>
+          }
+          @if (email.errors?.['emailFormat']) {
+            <li>Enter a valid email address (e.g. name&#64;example.com).</li>
+          }
+        </ul>
+      }
+    </div>
+
+    <div class="field">
+      <label for="password">Password</label>
+      <input id="password" type="password" formControlName="password" />
+      @if (password.invalid && (password.touched || submitted())) {
+        <ul class="errors">
+          @if (password.errors?.['required']) {
+            <li>Password is required.</li>
+          }
+          @if (password.errors?.['passwordStrength']; as strength) {
+            @if (strength.minLength) {
+              <li>At least 8 characters.</li>
+            }
+            @if (strength.upperCase) {
+              <li>At least one uppercase letter.</li>
+            }
+            @if (strength.lowerCase) {
+              <li>At least one lowercase letter.</li>
+            }
+            @if (strength.digit) {
+              <li>At least one digit.</li>
+            }
+            @if (strength.specialChar) {
+              <li>At least one special character.</li>
+            }
+          }
+        </ul>
+      }
+    </div>
+
+    <div class="field">
+      <label for="confirmPassword">Confirm password</label>
+      <input id="confirmPassword" type="password" formControlName="confirmPassword" />
+      @if (confirmPassword.invalid && (confirmPassword.touched || submitted())) {
+        <ul class="errors">
+          @if (confirmPassword.errors?.['required']) {
+            <li>Please confirm your password.</li>
+          }
+        </ul>
+      }
+      @if (form.errors?.['passwordsMismatch'] && (confirmPassword.touched || submitted())) {
+        <ul class="errors">
+          <li>Passwords do not match.</li>
+        </ul>
+      }
+    </div>
+
+    @if (submitted() && form.invalid) {
+      <p class="form-error">Please fix the errors above before submitting.</p>
+    }
+
+    <button type="submit">Register</button>
+  </form>
+</section>
