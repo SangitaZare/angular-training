@@ -1,0 +1,48 @@
+<section class="form-card">
+  <h2>Tasks</h2>
+
+  <form class="add-form" (ngSubmit)="addTask()">
+    <input
+      type="text"
+      name="newTitle"
+      placeholder="What needs doing?"
+      [ngModel]="newTitle()"
+      (ngModelChange)="newTitle.set($event)"
+    />
+    <button type="submit">Add</button>
+  </form>
+
+  <div class="filters">
+    <button type="button" [class.active]="filter() === 'all'" (click)="setFilter('all')">All</button>
+    <button type="button" [class.active]="filter() === 'active'" (click)="setFilter('active')">
+      Active ({{ activeCount() }})
+    </button>
+    <button type="button" [class.active]="filter() === 'completed'" (click)="setFilter('completed')">
+      Completed ({{ completedCount() }})
+    </button>
+  </div>
+
+  @if (visibleTasks().length === 0) {
+    <p class="empty">Nothing here.</p>
+  } @else {
+    <ul class="tasks">
+      @for (task of visibleTasks(); track task.id) {
+        <li [class.completed]="task.completed">
+          <label>
+            <input type="checkbox" [checked]="task.completed" (change)="toggleTask(task.id)" />
+            <span>{{ task.title }}</span>
+          </label>
+          <button type="button" class="remove" (click)="removeTask(task.id)" aria-label="Remove task">
+            &times;
+          </button>
+        </li>
+      }
+    </ul>
+  }
+
+  @if (completedCount() > 0) {
+    <button type="button" class="clear" (click)="clearCompleted()">Clear completed</button>
+  }
+
+  <p class="hint">Tasks persist to localStorage — reload the page and they're still here.</p>
+</section>

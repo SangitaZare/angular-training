@@ -1,0 +1,12 @@
+.page-header {
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  padding: 1rem;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
