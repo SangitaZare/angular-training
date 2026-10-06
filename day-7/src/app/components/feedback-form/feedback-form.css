@@ -1,0 +1,42 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem 1rem;
+  max-width: 640px;
+}
+
+.form-grid.one-column {
+  grid-template-columns: 1fr;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.priority-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem 0;
+}
+
+.priority-label {
+  font-size: 0.75rem;
+  color: var(--mat-sys-on-surface-variant);
+}
+
+.priority-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.actions {
+  margin-top: 0.5rem;
+}
+
+.confirmation {
+  margin-top: 1rem;
+  color: var(--mat-sys-primary);
+  font-weight: 500;
+}

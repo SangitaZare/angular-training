@@ -1,0 +1,31 @@
+.card {
+  min-width: 220px;
+}
+
+.card.onpush {
+  outline: 2px solid var(--mat-sys-primary);
+  outline-offset: 2px;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.meta {
+  margin: 0.25rem 0 0;
+  color: var(--mat-sys-on-surface-variant);
+}
+
+.checks {
+  margin: 0.5rem 0 0;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: var(--mat-sys-on-surface-variant);
+}
