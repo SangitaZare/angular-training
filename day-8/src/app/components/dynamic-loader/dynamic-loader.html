@@ -1,0 +1,27 @@
+<app-panel title="Dynamic widget loader">
+  <button
+    panel-actions
+    type="button"
+    class="clear-btn"
+    [disabled]="widgetCount() === 0"
+    (click)="clearAll()"
+  >
+    Clear all
+  </button>
+
+  <div class="loader-controls">
+    <label for="widget-type">Widget type</label>
+    <select id="widget-type" [value]="selectedType" (change)="onTypeChange($event)">
+      @for (option of options; track option.value) {
+        <option [value]="option.value">{{ option.label }}</option>
+      }
+    </select>
+    <button type="button" class="add-btn" (click)="addWidget()">Add widget</button>
+  </div>
+
+  <p class="widget-count">{{ widgetCount() }} widget{{ widgetCount() === 1 ? '' : 's' }} loaded</p>
+
+  <div class="widget-grid">
+    <ng-container #outlet></ng-container>
+  </div>
+</app-panel>

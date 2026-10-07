@@ -1,0 +1,11 @@
+<article class="widget counter-widget">
+  <button type="button" class="close-btn" aria-label="Remove widget" (click)="closed.emit()">
+    &times;
+  </button>
+  <h3>Counter</h3>
+  <p class="value">{{ count() }}</p>
+  <div class="actions">
+    <button type="button" (click)="decrement()">&minus;{{ step }}</button>
+    <button type="button" (click)="increment()">+{{ step }}</button>
+  </div>
+</article>
