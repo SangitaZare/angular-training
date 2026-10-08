@@ -1,0 +1,22 @@
+<section class="dashboard" aria-labelledby="dashboard-heading">
+  <h2 id="dashboard-heading">Dashboard</h2>
+  <p>
+    Welcome, <strong>{{ auth.currentUser()?.username }}</strong> — you're signed in as
+    <strong>{{ auth.currentUser()?.role }}</strong>.
+  </p>
+
+  <div class="profile-card">
+    <h3>GET /api/profile</h3>
+    @if (loading()) {
+      <p>Loading…</p>
+    } @else if (error()) {
+      <p class="error">{{ error() }}</p>
+    } @else {
+      <p>{{ profileMessage() }}</p>
+    }
+    <p class="hint">
+      This request only succeeds because <code>authInterceptor</code> attached your token to it
+      automatically — open devtools' Network tab and check the request headers.
+    </p>
+  </div>
+</section>

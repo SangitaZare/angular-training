@@ -1,0 +1,27 @@
+<header class="site-header">
+  <h1>Day 9: Angular Authentication and Interceptors</h1>
+  <p class="intro">
+    A mock JWT login, an <code>HttpInterceptorFn</code> that attaches the token to every API
+    request and logs you out on a 401, and route guards that gate navigation by login state and
+    role.
+  </p>
+
+  <nav class="main-nav">
+    @if (auth.isAuthenticated()) {
+      <span class="current-user">
+        {{ auth.currentUser()?.username }} ({{ auth.currentUser()?.role }})
+      </span>
+      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      @if (auth.hasRole('admin')) {
+        <a routerLink="/admin" routerLinkActive="active">Admin</a>
+      }
+      <button type="button" class="logout-btn" (click)="logout()">Log out</button>
+    } @else {
+      <a routerLink="/login" routerLinkActive="active">Log in</a>
+    }
+  </nav>
+</header>
+
+<main class="layout">
+  <router-outlet></router-outlet>
+</main>
