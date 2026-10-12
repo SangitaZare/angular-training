@@ -1,0 +1,10 @@
+<div class="language-switcher" role="group" aria-label="Language">
+  <!-- Language names are proper nouns, not translated content, so these are
+       plain text rather than going through the translate pipe. -->
+  <button type="button" [class.active]="translate.currentLang() === 'en'" (click)="use('en')">
+    English
+  </button>
+  <button type="button" [class.active]="translate.currentLang() === 'es'" (click)="use('es')">
+    Español
+  </button>
+</div>
