@@ -1,0 +1,17 @@
+{
+  "APP": {
+    "TITLE": "Day 11: QR Code Generation and Language Translation",
+    "INTRO": "Generate a QR code from any text or URL, optionally with a logo stamped in the center, and switch the page's language with ngx-translate."
+  },
+  "QR": {
+    "HEADING": "QR Code Generator",
+    "TEXT_LABEL": "Text or URL",
+    "TEXT_PLACEHOLDER": "https://example.com",
+    "LOGO_LABEL": "Logo (optional)",
+    "FORMAT_LABEL": "Download format",
+    "GENERATE": "Generate",
+    "GENERATING": "Generating…",
+    "DOWNLOAD": "Download {{format}}",
+    "EMPTY_HINT": "Enter some text or a URL, then press Generate."
+  }
+}

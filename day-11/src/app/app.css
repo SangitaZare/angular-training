@@ -1,0 +1,30 @@
+.site-header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header-top h1 {
+  margin: 0 0 0.25rem;
+}
+
+.intro {
+  color: var(--color-text-muted);
+  max-width: 70ch;
+}
+
+.layout {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
