@@ -1,0 +1,43 @@
+<section class="qr-share" aria-labelledby="share-heading">
+  <h2 id="share-heading">Share your dashboard</h2>
+  <p class="intro">
+    Generate a scannable QR code for any link — it's pre-filled with a link back to your dashboard.
+  </p>
+
+  <mat-card class="qr-card">
+    <mat-card-content>
+      <form class="qr-form" (submit)="onSubmit($event)">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Link or text to encode</mat-label>
+          <input matInput [value]="text" (input)="onTextInput($event)" />
+        </mat-form-field>
+
+        @if (error()) {
+          <p class="error" role="alert">{{ error() }}</p>
+        }
+
+        <button
+          mat-raised-button
+          [color]="generating() ? undefined : 'primary'"
+          type="submit"
+          [disabled]="!canGenerate"
+        >
+          {{ generating() ? 'Generating…' : 'Generate QR code' }}
+        </button>
+      </form>
+
+      <div class="preview">
+        <canvas #qrCanvas width="240" height="240"></canvas>
+        @if (!downloadUrl() && !generating()) {
+          <p class="hint">Your QR code will appear here.</p>
+        }
+      </div>
+
+      @if (downloadUrl()) {
+        <a class="download-link" [href]="downloadUrl()" download="dashboard-qr.png">
+          Download PNG
+        </a>
+      }
+    </mat-card-content>
+  </mat-card>
+</section>
