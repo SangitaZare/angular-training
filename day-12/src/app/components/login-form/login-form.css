@@ -1,0 +1,36 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 360px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.submit-button {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.inline-spinner {
+  display: inline-flex;
+}
+
+.error {
+  color: var(--mat-sys-error);
+  margin: 0 0 0.5rem;
+}
