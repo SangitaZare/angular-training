@@ -44,7 +44,7 @@ CompanyApi/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/SangitaZare/angular-trainning.git
-cd CompanyApi
+cd CompanyApi/CompanyApi
 ```
 
 ### 2. Restore dependencies
