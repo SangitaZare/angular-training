@@ -1,0 +1,40 @@
+# Visual Studio cache/options directory
+.vs/
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local History for Visual Studio
+.localhistory/
+
+# Visual Studio cache directory
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Environment variables
+.env
+.env.local
+appsettings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
