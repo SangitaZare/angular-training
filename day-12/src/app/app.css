@@ -1,0 +1,26 @@
+.shell {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 220px;
+}
+
+.active-link {
+  background-color: var(--mat-sys-secondary-container);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.current-user {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}

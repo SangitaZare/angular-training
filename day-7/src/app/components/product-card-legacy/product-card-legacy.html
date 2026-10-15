@@ -1,0 +1,18 @@
+<mat-card appearance="outlined" class="card">
+  <mat-card-content>
+    <div class="card-row">
+      <span class="name">{{ product.name }}</span>
+      <button
+        mat-icon-button
+        type="button"
+        [attr.aria-pressed]="product.favorite"
+        [attr.aria-label]="(product.favorite ? 'Remove ' : 'Add ') + product.name + ' from favorites'"
+        (click)="favorite.emit()"
+      >
+        <mat-icon>{{ product.favorite ? 'star' : 'star_border' }}</mat-icon>
+      </button>
+    </div>
+    <p class="meta">{{ product.price | currency }} &middot; {{ product.stock }} in stock</p>
+    <p class="checks">Checked {{ checks() }}&times;</p>
+  </mat-card-content>
+</mat-card>

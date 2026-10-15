@@ -1,0 +1,12 @@
+<section class="panel">
+  <header class="panel-header">
+    <h2>{{ title }}</h2>
+    <div class="panel-actions">
+      <ng-content select="[panel-actions]"></ng-content>
+    </div>
+  </header>
+
+  <div class="panel-body">
+    <ng-content></ng-content>
+  </div>
+</section>

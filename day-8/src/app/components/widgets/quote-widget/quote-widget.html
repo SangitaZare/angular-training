@@ -1,0 +1,8 @@
+<article class="widget quote-widget">
+  <button type="button" class="close-btn" aria-label="Remove widget" (click)="closed.emit()">
+    &times;
+  </button>
+  <h3>Quote</h3>
+  <p class="value">{{ quote() }}</p>
+  <button type="button" (click)="next()">Next quote</button>
+</article>

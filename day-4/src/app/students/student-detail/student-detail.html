@@ -1,0 +1,10 @@
+<div class="student-detail" *ngIf="student() as s; else notFound">
+  <h3>{{ s.name }}</h3>
+  <p>{{ s.course }}</p>
+  <a routerLink="/students">&larr; Back to all students</a>
+</div>
+
+<ng-template #notFound>
+  <p class="missing">No student with that ID.</p>
+  <a routerLink="/students">&larr; Back to all students</a>
+</ng-template>

@@ -1,0 +1,103 @@
+<section class="form-card">
+  <h2>Contact Us (Template-driven Form)</h2>
+
+  @if (sentMessage()) {
+    <p class="success">Thanks, {{ sentMessage()!.name }} — we'll reply to {{ sentMessage()!.email }} soon.</p>
+  }
+
+  <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)" novalidate>
+    <div class="field">
+      <label for="name">Name</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        [(ngModel)]="model.name"
+        #name="ngModel"
+        required
+        minlength="2"
+      />
+      @if (name.invalid && (name.touched || submitted())) {
+        <ul class="errors">
+          @if (name.errors?.['required']) {
+            <li>Name is required.</li>
+          }
+          @if (name.errors?.['minlength']) {
+            <li>Name must be at least 2 characters.</li>
+          }
+        </ul>
+      }
+    </div>
+
+    <div class="field">
+      <label for="contactEmail">Email</label>
+      <input
+        id="contactEmail"
+        name="email"
+        type="email"
+        [(ngModel)]="model.email"
+        #email="ngModel"
+        required
+        email
+      />
+      @if (email.invalid && (email.touched || submitted())) {
+        <ul class="errors">
+          @if (email.errors?.['required']) {
+            <li>Email is required.</li>
+          }
+          @if (email.errors?.['email']) {
+            <li>Enter a valid email address.</li>
+          }
+        </ul>
+      }
+    </div>
+
+    <div class="field">
+      <label for="phone">Phone (optional)</label>
+      <input
+        id="phone"
+        name="phone"
+        type="tel"
+        [(ngModel)]="model.phone"
+        #phone="ngModel"
+        pattern="^[0-9+\-\s]{7,15}$"
+      />
+      @if (phone.invalid && (phone.touched || submitted())) {
+        <ul class="errors">
+          @if (phone.errors?.['pattern']) {
+            <li>Enter a valid phone number (digits, spaces, + or - only).</li>
+          }
+        </ul>
+      }
+    </div>
+
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        [(ngModel)]="model.message"
+        #message="ngModel"
+        required
+        minlength="10"
+      ></textarea>
+      @if (message.invalid && (message.touched || submitted())) {
+        <ul class="errors">
+          @if (message.errors?.['required']) {
+            <li>Message is required.</li>
+          }
+          @if (message.errors?.['minlength']) {
+            <li>Message must be at least 10 characters.</li>
+          }
+        </ul>
+      }
+    </div>
+
+    @if (submitted() && contactForm.invalid) {
+      <p class="form-error">Please fix the errors above before submitting.</p>
+    }
+
+    <button type="submit">Send</button>
+  </form>
+</section>

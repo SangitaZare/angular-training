@@ -1,0 +1,35 @@
+<section class="login-card" aria-labelledby="login-heading">
+  <h2 id="login-heading">Log in</h2>
+  <p class="hint">
+    Try <strong>admin</strong> / <strong>admin123</strong> for an admin account, or
+    <strong>user</strong> / <strong>user123</strong> for a regular one.
+  </p>
+
+  <form class="login-form" (submit)="onSubmit($event)">
+    <label for="username">Username</label>
+    <input
+      id="username"
+      type="text"
+      autocomplete="username"
+      [value]="username"
+      (input)="onUsernameInput($event)"
+    />
+
+    <label for="password">Password</label>
+    <input
+      id="password"
+      type="password"
+      autocomplete="current-password"
+      [value]="password"
+      (input)="onPasswordInput($event)"
+    />
+
+    @if (errorMessage()) {
+      <p class="error" role="alert">{{ errorMessage() }}</p>
+    }
+
+    <button type="submit" [disabled]="!canSubmit">
+      {{ submitting() ? 'Logging in…' : 'Log in' }}
+    </button>
+  </form>
+</section>

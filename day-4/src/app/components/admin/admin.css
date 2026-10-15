@@ -1,0 +1,23 @@
+.admin {
+  max-width: 480px;
+  margin: 1.5rem auto;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.admin p {
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.admin button {
+  padding: 0.5rem 1.2rem;
+  background: #b91c1c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}

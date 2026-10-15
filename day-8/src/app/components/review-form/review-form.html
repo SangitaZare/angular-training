@@ -1,0 +1,35 @@
+<app-panel title="Leave a review">
+  <span panel-actions class="count-badge">
+    {{ reviews().length }} review{{ reviews().length === 1 ? '' : 's' }}
+  </span>
+
+  <div class="composer">
+    <app-star-rating [rating]="draftRating" (ratingChange)="setRating($event)"></app-star-rating>
+
+    <textarea
+      class="comment-input"
+      rows="2"
+      placeholder="What did you think?"
+      aria-label="Review comment"
+      [value]="draftComment"
+      (input)="onCommentInput($event)"
+    ></textarea>
+
+    <button type="button" class="submit-btn" [disabled]="!canSubmit" (click)="submit()">
+      Add review
+    </button>
+  </div>
+
+  @if (reviews().length === 0) {
+    <p class="empty">No reviews yet &mdash; be the first.</p>
+  } @else {
+    <ul class="review-list">
+      @for (review of reviews(); track review.id) {
+        <li class="review-item">
+          <app-star-rating [rating]="review.rating" [readOnly]="true"></app-star-rating>
+          <p>{{ review.comment }}</p>
+        </li>
+      }
+    </ul>
+  }
+</app-panel>

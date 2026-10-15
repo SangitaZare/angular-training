@@ -1,0 +1,11 @@
+<!-- Property binding: passes data down to the child component's @Input()s -->
+<app-header [title]="title" [studentCount]="lastStudent ? 1 : 0"></app-header>
+
+<main class="layout">
+  <!-- Event binding: listens for the custom (addStudent) output event -->
+  <app-student-form (addStudent)="onAddStudent($event)"></app-student-form>
+
+  <app-student-card [student]="lastStudent"></app-student-card>
+</main>
+
+<app-footer></app-footer>

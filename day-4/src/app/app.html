@@ -1,0 +1,16 @@
+<header class="app-header">
+  <h1>{{ title }}</h1>
+  <!-- routerLinkActive highlights whichever link matches the current URL -->
+  <nav>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/students" routerLinkActive="active">Students</a>
+    <a routerLink="/admin" routerLinkActive="active">Admin</a>
+    <a *ngIf="!authService.isLoggedIn()" routerLink="/login" routerLinkActive="active">Login</a>
+    <span *ngIf="authService.isLoggedIn()" class="status">Logged in</span>
+  </nav>
+</header>
+
+<main class="layout">
+  <!-- The router swaps whatever component matches the current URL in here -->
+  <router-outlet></router-outlet>
+</main>

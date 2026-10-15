@@ -1,0 +1,79 @@
+.post-list {
+  max-width: 640px;
+  margin: 1.5rem auto;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbar h2 {
+  margin: 0;
+}
+
+.toolbar button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.toolbar button:disabled {
+  background: #a5a5a5;
+  cursor: not-allowed;
+}
+
+.status {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.error {
+  padding: 0.75rem;
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
+  border-radius: 8px;
+}
+
+.error button {
+  margin-top: 0.5rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #b91c1c;
+  border-radius: 6px;
+  background: #fff;
+  color: #b91c1c;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-row {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.post-row h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.post-row p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,19 @@
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+button.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-contrast);
+}

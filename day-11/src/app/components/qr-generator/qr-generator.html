@@ -1,0 +1,44 @@
+<section class="qr-generator" aria-labelledby="qr-heading">
+  <h2 id="qr-heading">{{ 'QR.HEADING' | translate }}</h2>
+
+  <form (submit)="onSubmit($event)">
+    <label for="qr-text">{{ 'QR.TEXT_LABEL' | translate }}</label>
+    <input
+      id="qr-text"
+      type="text"
+      [value]="text"
+      (input)="onTextInput($event)"
+      [placeholder]="'QR.TEXT_PLACEHOLDER' | translate"
+    />
+
+    <label for="qr-logo">{{ 'QR.LOGO_LABEL' | translate }}</label>
+    <input id="qr-logo" type="file" accept="image/*" (change)="onLogoSelected($event)" />
+
+    <label for="qr-format">{{ 'QR.FORMAT_LABEL' | translate }}</label>
+    <select id="qr-format" [value]="format" (change)="onFormatChange($event)">
+      <option value="image/png">PNG</option>
+      <option value="image/jpeg">JPEG</option>
+    </select>
+
+    @if (error()) {
+      <p class="error" role="alert">{{ error() }}</p>
+    }
+
+    <button type="submit" [disabled]="!canGenerate">
+      {{ (generating() ? 'QR.GENERATING' : 'QR.GENERATE') | translate }}
+    </button>
+  </form>
+
+  <div class="preview">
+    <canvas #qrCanvas width="320" height="320"></canvas>
+    @if (!downloadUrl() && !generating()) {
+      <p class="hint">{{ 'QR.EMPTY_HINT' | translate }}</p>
+    }
+  </div>
+
+  @if (downloadUrl()) {
+    <a class="download-link" [href]="downloadUrl()" [download]="downloadFilename">
+      {{ 'QR.DOWNLOAD' | translate: { format: formatLabel } }}
+    </a>
+  }
+</section>
