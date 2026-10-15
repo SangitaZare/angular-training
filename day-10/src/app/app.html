@@ -1,0 +1,14 @@
+<header class="site-header">
+  <h1>Day 10: Angular Testing</h1>
+  <p class="intro">
+    A product list and an add-product form — small enough that every behavior is
+    either in a component or a service, which is the whole point: it's a surface
+    for <code>product.service.spec.ts</code>, <code>product-list.spec.ts</code>, and
+    <code>product-form.spec.ts</code> to exercise with Jasmine and Karma.
+  </p>
+</header>
+
+<main class="layout">
+  <app-product-form (added)="list.load()"></app-product-form>
+  <app-product-list #list></app-product-list>
+</main>

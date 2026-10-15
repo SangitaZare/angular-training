@@ -1,0 +1,38 @@
+<section class="student-list">
+  <h2>Students</h2>
+
+  <!-- Event binding: (input) calls onSearchInput on every keystroke.
+       Property binding: [value] keeps the input in sync with searchTerm. -->
+  <input
+    class="search"
+    type="text"
+    placeholder="Search by name..."
+    [value]="searchTerm"
+    (input)="onSearchInput($event)"
+  />
+
+  <!-- Custom pipe applied once via "as" so *ngIf and *ngFor below share the same result -->
+  <ng-container *ngIf="students | filterByName: searchTerm as filtered">
+    <!-- *ngIf: conditional rendering based on whether the filtered list is empty -->
+    <p class="empty" *ngIf="filtered.length === 0">No students match your search.</p>
+
+    <!-- *ngFor: renders one <li> per student; trackBy avoids re-rendering unchanged rows -->
+    <ul *ngIf="filtered.length > 0">
+      <li *ngFor="let student of filtered; index as i; trackBy: trackById" class="student-row">
+        <div class="summary">
+          <span class="index">{{ i + 1 }}.</span>
+          <!-- Custom pipe: capitalize -->
+          <span class="name">{{ student.name | capitalize }}</span>
+          <span class="course">{{ student.course | capitalize }}</span>
+          <!-- Event binding toggles conditional rendering below -->
+          <button type="button" class="toggle" (click)="toggleDetails(student)">
+            {{ expandedId === student.id ? 'Hide' : 'Details' }}
+          </button>
+        </div>
+
+        <!-- A second, independent *ngIf: per-row conditional rendering driven by component state -->
+        <p class="details" *ngIf="expandedId === student.id">Email: {{ student.email }}</p>
+      </li>
+    </ul>
+  </ng-container>
+</section>

@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #fff;
+  border-radius: 0 0 12px 12px;
+}
+
+.app-header h1 {
+  margin: 0 0 0.75rem;
+  font-size: 1.75rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+nav a {
+  color: #e0e7ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding-bottom: 2px;
+}
+
+nav a.active {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+
+.status {
+  color: #d1fae5;
+  font-size: 0.9rem;
+}
+
+.layout {
+  padding-top: 1rem;
+}

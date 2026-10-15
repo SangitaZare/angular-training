@@ -1,0 +1,52 @@
+<form class="student-form" (ngSubmit)="onSubmit()" #form="ngForm">
+  <h2>Add Student</h2>
+
+  <div class="field">
+    <label for="name">Name</label>
+    <!-- Two-way binding: [(ngModel)] keeps `name` and the input value in sync -->
+    <input
+      id="name"
+      name="name"
+      type="text"
+      placeholder="e.g. jane doe"
+      [(ngModel)]="name"
+      appHighlight
+      required
+    />
+  </div>
+
+  <div class="field">
+    <label for="email">Email</label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      placeholder="e.g. jane@example.com"
+      [(ngModel)]="email"
+      appHighlight
+      required
+    />
+  </div>
+
+  <div class="field">
+    <label for="course">Course</label>
+    <input
+      id="course"
+      name="course"
+      type="text"
+      placeholder="e.g. Angular Fundamentals"
+      [(ngModel)]="course"
+      appHighlight
+    />
+  </div>
+
+  <!-- Live preview powered by the same two-way bound properties.
+       [hidden] is a property binding (Day 1 topic), not a structural
+       directive like *ngIf (that's Day 2) -->
+  <p class="preview" [hidden]="!name && !email">
+    Preview: <strong>{{ name || '...' }}</strong> ({{ email || '...' }})
+  </p>
+
+  <!-- Property binding to [disabled], event binding via (ngSubmit) above -->
+  <button type="submit" [disabled]="!isValid">Add Student</button>
+</form>

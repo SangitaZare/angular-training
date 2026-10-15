@@ -1,0 +1,17 @@
+.student-card {
+  max-width: 420px;
+  margin: 1.5rem auto;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.student-card h2 {
+  margin-top: 0;
+}
+
+.student-card p {
+  margin: 0.4rem 0;
+  color: #374151;
+}

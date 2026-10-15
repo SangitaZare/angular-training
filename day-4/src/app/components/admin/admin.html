@@ -1,0 +1,9 @@
+<section class="admin">
+  <h2>Admin Dashboard</h2>
+  <p>
+    You only got here because <code>authGuard</code> let you through — try
+    logging out and visiting <code>/admin</code> directly to see it
+    redirect you to <code>/login</code> instead.
+  </p>
+  <button type="button" (click)="authService.logout()">Log Out</button>
+</section>

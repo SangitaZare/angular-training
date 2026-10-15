@@ -1,0 +1,29 @@
+<section class="product-list" aria-labelledby="product-list-heading">
+  <div class="list-header">
+    <h2 id="product-list-heading">Products</h2>
+    <button type="button" (click)="load()">Refresh</button>
+  </div>
+
+  @if (loading()) {
+    <p>Loading…</p>
+  } @else {
+    @if (error()) {
+      <!-- Shown alongside the list (not instead of it) so a failed delete
+           doesn't make products the user can still see disappear. -->
+      <p class="error" role="alert">{{ error() }}</p>
+    }
+    @if (products().length === 0 && !error()) {
+      <p class="empty">No products yet — add one below.</p>
+    } @else if (products().length > 0) {
+      <ul>
+        @for (product of products(); track product.id) {
+          <li>
+            <span class="name">{{ product.name }}</span>
+            <span class="price">${{ product.price.toFixed(2) }}</span>
+            <button type="button" class="remove-btn" (click)="remove(product.id)">Remove</button>
+          </li>
+        }
+      </ul>
+    }
+  }
+</section>

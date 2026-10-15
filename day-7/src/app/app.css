@@ -1,0 +1,17 @@
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.intro {
+  color: var(--mat-sys-on-surface-variant);
+  max-width: 70ch;
+}
+
+.section-divider {
+  margin: 0.5rem 0;
+}

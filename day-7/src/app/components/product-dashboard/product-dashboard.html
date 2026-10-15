@@ -1,0 +1,45 @@
+<section class="dashboard" aria-labelledby="dashboard-heading">
+  <h2 id="dashboard-heading">Product dashboard</h2>
+  <p class="hint">
+    Background activity ticks every 1.5s (ticks: {{ ticker.ticks() }}) to simulate something
+    unrelated elsewhere in the app changing state. Each card's "Checked ×N" badge counts its own
+    <code>ngDoCheck</code> calls — a transparent instrument for seeing exactly when Angular checks
+    a component. See the README for what this app actually shows the two strategies doing (it's
+    not the textbook answer).
+  </p>
+
+  <div class="controls">
+    <button mat-stroked-button type="button" (click)="ticker.bump()">
+      Simulate background activity now
+    </button>
+    <button mat-stroked-button type="button" (click)="mutateFirstProductInPlace()">
+      Mutate first product name (same reference — buggy)
+    </button>
+    <button mat-stroked-button color="primary" type="button" (click)="renameFirstProductImmutably()">
+      Rename first product immutably (new reference — correct)
+    </button>
+  </div>
+
+  <div class="columns">
+    <div class="column">
+      <h3>Before &mdash; Default strategy</h3>
+      <div class="cards">
+        @for (product of products(); track product.id) {
+          <app-product-card-legacy
+            [product]="product"
+            (favorite)="toggleFavorite(product.id)"
+          ></app-product-card-legacy>
+        }
+      </div>
+    </div>
+
+    <div class="column">
+      <h3>After &mdash; OnPush strategy</h3>
+      <div class="cards">
+        @for (product of products(); track product.id) {
+          <app-product-card [product]="product" (favorite)="toggleFavorite(product.id)"></app-product-card>
+        }
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+<section class="admin-panel" aria-labelledby="admin-heading">
+  <h2 id="admin-heading">Admin panel</h2>
+  <p class="hint">
+    Reachable only because <code>roleGuard</code> let you through — log in as <strong>user</strong>
+    instead and try navigating to <code>/admin</code> directly to see it redirect you away.
+  </p>
+
+  <div class="stats-card">
+    <h3>GET /api/admin/stats</h3>
+    @if (loading()) {
+      <p>Loading…</p>
+    } @else if (error()) {
+      <p class="error">{{ error() }}</p>
+    } @else if (stats(); as s) {
+      <dl class="stats">
+        <dt>Total users</dt>
+        <dd>{{ s.totalUsers }}</dd>
+        <dt>Uptime</dt>
+        <dd>{{ s.uptimeHours }} hours</dd>
+      </dl>
+    }
+  </div>
+</section>

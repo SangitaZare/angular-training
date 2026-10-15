@@ -1,0 +1,5 @@
+.quote-widget .value {
+  font-style: italic;
+  font-size: 0.9rem;
+  min-height: 3em;
+}

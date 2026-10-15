@@ -1,0 +1,23 @@
+.site-header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.site-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.intro {
+  color: var(--color-text-muted);
+  max-width: 70ch;
+}
+
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
