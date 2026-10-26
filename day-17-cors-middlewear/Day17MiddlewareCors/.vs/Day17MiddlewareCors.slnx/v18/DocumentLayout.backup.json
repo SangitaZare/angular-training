@@ -1,0 +1,486 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\assistant\\geminillmclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\assistant\\geminillmclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\controllers\\assistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\controllers\\assistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\assistant\\llmtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\assistant\\llmtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\models\\productsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\models\\productsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\services\\ordernotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\services\\ordernotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sangita\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bc1f0db-c9de-49e6-a767-489974e6df1a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\services\\smtpemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\services\\smtpemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\auth-tests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\auth-tests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\models\\dashboardsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\models\\dashboardsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\services\\photostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\services\\photostorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\data\\kiyaaradbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\data\\kiyaaradbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\migrations\\20261008085141_addcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\migrations\\20261008085141_addcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\migrations\\20261008122828_addrolecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\migrations\\20261008122828_addrolecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|c:\\users\\sangita\\documents\\project\\day17middlewarecors\\day17middlewarecors\\migrations\\20261008122812_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92CFD34-DDFE-88B4-0EF8-1EA8643F9F8A}|Day17MiddlewareCors\\Day17MiddlewareCors.csproj|solutionrelative:day17middlewarecors\\migrations\\20261008122812_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssistantController.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\AssistantController.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Controllers\\AssistantController.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\AssistantController.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Controllers\\AssistantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T13:18:47.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeminiLlmClient.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Assistant\\GeminiLlmClient.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Assistant\\GeminiLlmClient.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Assistant\\GeminiLlmClient.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Assistant\\GeminiLlmClient.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAhwB8AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T13:18:11.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LlmTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Assistant\\LlmTypes.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Assistant\\LlmTypes.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Assistant\\LlmTypes.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Assistant\\LlmTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T13:16:56.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Program.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Program.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Program.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Program.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAhwJAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:49:45.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardSummary.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\DashboardSummary.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Models\\DashboardSummary.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\DashboardSummary.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Models\\DashboardSummary.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:54:44.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\appsettings.json",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\appsettings.json",
+              "RelativeToolTip": "Day17MiddlewareCors\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-08T08:40:33.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\appsettings.Development.json",
+              "RelativeToolTip": "Day17MiddlewareCors\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-26T08:42:38.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthModels.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\AuthModels.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Models\\AuthModels.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\AuthModels.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Models\\AuthModels.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwEwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:28:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductSearch.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\ProductSearch.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Models\\ProductSearch.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\ProductSearch.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Models\\ProductSearch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T13:08:57.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwCcAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T11:28:03.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAYwIQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:29:57.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAYwJ8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T11:28:18.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\OrderNotifier.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Services\\OrderNotifier.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\OrderNotifier.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Services\\OrderNotifier.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:59:47.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\Customer.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:27:37.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Sangita\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bc1f0db-c9de-49e6-a767-489974e6df1a\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bc1f0db-c9de-49e6-a767-489974e6df1a\\secrets.json",
+              "ToolTip": "C:\\Users\\Sangita\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bc1f0db-c9de-49e6-a767-489974e6df1a\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\6bc1f0db-c9de-49e6-a767-489974e6df1a\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-26T09:49:53.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAwLgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:49:22.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SmtpEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\SmtpEmailService.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Services\\SmtpEmailService.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\SmtpEmailService.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Services\\SmtpEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T09:44:36.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Data\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:48:07.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "auth-tests.http",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\auth-tests.http",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\auth-tests.http",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\auth-tests.http",
+              "RelativeToolTip": "Day17MiddlewareCors\\auth-tests.http",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwG0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-08T08:54:51.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20261008122812_AddRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Migrations\\20261008122812_AddRoles.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Migrations\\20261008122812_AddRoles.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Migrations\\20261008122812_AddRoles.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Migrations\\20261008122812_AddRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T12:28:13.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20261008122828_AddRoleColumn.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Migrations\\20261008122828_AddRoleColumn.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Migrations\\20261008122828_AddRoleColumn.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Migrations\\20261008122828_AddRoleColumn.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Migrations\\20261008122828_AddRoleColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T12:28:28.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KiyaaraDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Data\\KiyaaraDbContext.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Data\\KiyaaraDbContext.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Data\\KiyaaraDbContext.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Data\\KiyaaraDbContext.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:47:23.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PhotoStorage.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\PhotoStorage.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Services\\PhotoStorage.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\PhotoStorage.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Services\\PhotoStorage.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T13:08:49.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\TokenService.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Services\\TokenService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:29:18.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20261008085141_AddCustomers.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Migrations\\20261008085141_AddCustomers.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Migrations\\20261008085141_AddCustomers.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Migrations\\20261008085141_AddCustomers.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Migrations\\20261008085141_AddCustomers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:51:42.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Services\\EmailService.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:45:57.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Models\\Order.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Models\\Order.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowGUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T07:26:14.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Day17MiddlewareCors\\Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Sangita\\Documents\\Project\\Day17MiddlewareCors\\Day17MiddlewareCors\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "Day17MiddlewareCors\\Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T12:52:04.488Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
